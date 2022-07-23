@@ -1,4 +1,4 @@
-package homework4;
+package homework02;
 
 public class UserTax {
 	int income;

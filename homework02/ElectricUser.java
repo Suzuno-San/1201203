@@ -1,4 +1,4 @@
-package homework3;
+package homework02;
 
 public class ElectricUser {
 	long id;
@@ -7,11 +7,11 @@ public class ElectricUser {
 	int units;
 	double bill;
 	
-	public ElectricUser(long id, String name, String surname, int electricUnits) {
+	public ElectricUser(long id, String name, String surname, int units) {
 		this.id = id;
 		this.name = name;
 		this.surname = surname;
-		this.units = electricUnits;
+		this.units = units;
 		this.bill = 0;
 	}
 	

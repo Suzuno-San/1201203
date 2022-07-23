@@ -1,4 +1,4 @@
-package homework4;
+package homework02;
 
 import java.util.Scanner;
 
@@ -10,7 +10,9 @@ public class UserTaxMain {
 		int userIncome = sc.nextInt();
 		
 		UserTax user1 = new UserTax(userIncome);
-		user1.tax = CalculaterTax.calculating(userIncome);
+		user1.tax = CalculaterTax.culculating(userIncome);
 		System.out.println(user1.toString());
+		
+		sc.close();
 	}
 }

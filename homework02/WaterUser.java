@@ -1,11 +1,11 @@
-package homework2;
+package homework02;
 
 public class WaterUser {
 	int units;
 	double bill;
 	
-	public WaterUser(int unit){
-		this.units = unit;
+	public WaterUser(int units) {
+		this.units = units;
 		this.bill = 0;
 	}
 	

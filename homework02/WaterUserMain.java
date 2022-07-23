@@ -1,4 +1,4 @@
-package homework2;
+package homework02;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class WaterUserMain {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Input Units: ");
+		System.out.print("Input WaterUnits: ");
 		int userUnits = sc.nextInt();
 		
 		WaterUser user1 = new WaterUser(userUnits);

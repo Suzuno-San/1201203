@@ -1,8 +1,8 @@
-package homework1;
+package homework02;
 
 import java.util.Scanner;
 
-public class MainStudent {
+public class StudentMain {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -15,7 +15,7 @@ public class MainStudent {
 		System.out.print("Input Mark: ");
 		int myMark = sc.nextInt();
 		
-		Student std = new Student(myId,myName,mySurname,myMark);
+		Student std = new Student(myId, myName, mySurname, myMark);
 		std.grade = Grade.grading(myMark);
 		System.out.println(std.toString());
 		

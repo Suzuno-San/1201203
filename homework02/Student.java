@@ -1,4 +1,4 @@
-package homework1;
+package homework02;
 
 public class Student {
 	long id;
@@ -16,8 +16,7 @@ public class Student {
 	}
 	
 	public String toString() {
-		return "ID: "+this.id+", Name: "+this.name+
-				", Surname: "+this.surname+", Mark: "+this.mark+
-				", Grade: "+ this.grade;
+		return "ID: "+this.id+", Name: "+this.name+", Surname: "+this.surname+
+				", Mark: "+this.mark+", Grade: "+this.grade;
 	}
 }

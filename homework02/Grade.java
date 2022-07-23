@@ -1,8 +1,8 @@
-package homework1;
+package homework02;
 
 public class Grade {
 	public static char grading(int mark) {
-		if(mark >= 80 && mark <=100) {
+		if(mark >= 80 && mark <= 100) {
 			return 'A';
 		}
 		else if(mark >= 70 && mark < 80) {

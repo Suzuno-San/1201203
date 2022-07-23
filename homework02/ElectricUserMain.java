@@ -1,4 +1,4 @@
-package homework3;
+package homework02;
 
 import java.util.Scanner;
 
@@ -15,8 +15,8 @@ public class ElectricUserMain {
 		System.out.print("Input ElectricUnits: ");
 		int userUnits = sc.nextInt();
 		
-		ElectricUser user1 = new ElectricUser(userId,userName,userSurname,userUnits);
-		user1.bill = CalculaterEectricBill.calculating(userUnits);
+		ElectricUser user1 = new ElectricUser(userId, userName, userSurname, userUnits);
+		user1.bill = CalculaterElectricBill.calculating(userUnits);
 		System.out.println(user1.toString());
 		
 		sc.close();

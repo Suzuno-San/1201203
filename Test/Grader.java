@@ -1,0 +1,21 @@
+package Test;
+
+public class Grader {
+	public static char grading(int mark) {
+		if(mark < 50) {
+			return 'F';
+		}
+		else if(mark < 60) {
+			return 'D';
+		}
+		else if(mark < 70) {
+			return 'C';
+		}
+		else if(mark < 80) {
+			return 'B';
+		}
+		else {
+			return 'A';
+		}
+	}
+}
